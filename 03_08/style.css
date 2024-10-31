@@ -37,4 +37,10 @@ body {
   width: 22rem;
   height: 22rem;
   border: 1rem solid black;
+  transform-origin: center;
+  transition: transform 1s ease-in-out;
+}
+
+.box_rotated {
+  transform: rotate();
 }
